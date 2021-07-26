@@ -24,7 +24,7 @@ func main() {
 			printError(errInvalidArguments)
 		}
 
-		originUnit := strings.ToUpper(os.Args[1])
+		originUnit = strings.ToUpper(os.Args[1])
 
 		fmt.Print("What is the current temperature in " + originUnit + " ? ")
 
